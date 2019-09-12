@@ -1,0 +1,9 @@
+{
+	"FOODS": [{
+		"vendorCode": "F012345",
+		"vendorName": "Bakkavoor",
+	}, {
+		"vendorCode": "F123467",
+		"vendorName": "Bakkavoor1",
+	}]
+}

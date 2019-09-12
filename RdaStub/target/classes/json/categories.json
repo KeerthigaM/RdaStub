@@ -1,0 +1,308 @@
+{
+	"FOOD": [
+		{
+			"description": "Poultry",
+			"category": "F01"
+		},
+		{
+			"description": "Frozen",
+			"category": "F02"
+		},
+		{
+			"description": "GlobalMealSolution",
+			"category": "F03"
+		},
+		{
+			"description": "Delicatessen",
+			"category": "F04"
+		},
+		{
+			"description": "Cook",
+			"category": "F05"
+		},
+		{
+			"description": "Dairy",
+			"category": "F06"
+		},
+		{
+			"description": "Food on the Move",
+			"category": "F07"
+		},
+		{
+			"description": "Desserts",
+			"category": "F08"
+		},
+		{
+			"description": "Bakery",
+			"category": "F09"
+		},
+		{
+			"description": "Biscuits",
+			"category": "F10"
+		},
+		{
+			"description": "Deli Counters",
+			"category": "F11"
+		},
+		{
+			"description": "Savoury Snacks",
+			"category": "F12"
+		},
+		{
+			"description": "Confectionery",
+			"category": "F13"
+		},
+		{
+			"description": "Flowers & Plants",
+			"category": "F14"
+		},
+		{
+			"description": "Vegetables",
+			"category": "F15"
+		},
+		{
+			"description": "Salads",
+			"category": "F16"
+		},
+		{
+			"description": "Other Counter",
+			"category": "F17"
+		},
+		{
+			"description": "Direct Hampers",
+			"category": "F18"
+		},
+		{
+			"description": "Groceries",
+			"category": "F19"
+		},
+		{
+			"description": "Wines",
+			"category": "F20"
+		},
+		{
+			"description": "Beers and Spirits",
+			"category": "F21"
+		},
+		{
+			"description": "Soft Drinks",
+			"category": "F22"
+		},
+		{
+			"description": "Direct Wines",
+			"category": "F23"
+		},
+		{
+			"description": "Spare 5",
+			"category": "F24"
+		},
+		{
+			"description": "Pick And Mix Raw",
+			"category": "F25"
+		},
+		{
+			"description": "In Store Bakery",
+			"category": "F27"
+		},
+		{
+			"description": "Juice",
+			"category": "F30"
+		},
+		{
+			"description": "Cards and Wrap",
+			"category": "F32"
+		},
+		{
+			"description": "AmbientCelebration",
+			"category": "F33"
+		},
+		{
+			"description": "Direct Celebration",
+			"category": "F34"
+		},
+		{
+			"description": " Homecare",
+			"category": "F35"
+		},
+		{
+			"description": "Beauty Products",
+			"category": "F36"
+		},
+		{
+			"description": "Meat",
+			"category": "F38"
+		},
+		{
+			"description": "Store Hampers",
+			"category": "F39"
+		},
+		{
+			"description": "Direct Flowers",
+			"category": "F44"
+		},
+		{
+			"description": "Deposits",
+			"category": "F57"
+		},
+		{
+			"description": "H C DEL CHARGE",
+			"category": "F58"
+		},
+		{
+			"description": "Grocery Gifts",
+			"category": "F59"
+		},
+		{
+			"description": "Vended Coffee",
+			"category": "F60"
+		},
+		{
+			"description": "Fruit",
+			"category": "F61"
+		},
+		{
+			"description": "Fish",
+			"category": "F62"
+		},
+		{
+			"description": "TraditionalMealSol",
+			"category": "F63"
+		},
+		{
+			"description": "Healthy Meals Solu",
+			"category": "F64"
+		},
+		{
+			"description": "Spare 1",
+			"category": "F65"
+		},
+		{
+			"description": "Food Gifts",
+			"category": "F66"
+		},
+		{
+			"description": "Prepared Veg",
+			"category": "F67"
+		},
+		{
+			"description": "Spare 2",
+			"category": "F68"
+		},
+		{
+			"description": "Spare 3",
+			"category": "F69"
+		},
+		{
+			"description": "Coffee ToGo",
+			"category": "F70"
+		},
+		{
+			"description": "Test Dept",
+			"category": "F71"
+		},
+		{
+			"description": "Chilled To Frozen",
+			"category": "F73"
+		},
+		{
+			"description": "Other 1",
+			"category": "F74"
+		},
+		{
+			"description": "Cafes",
+			"category": "F75"
+		},
+		{
+			"description": "Other 3",
+			"category": "F76"
+		},
+		{
+			"description": "Other 2",
+			"category": "F77"
+		},
+		{
+			"description": "Newspapers",
+			"category": "F78"
+		},
+		{
+			"description": "Spare 4",
+			"category": "F79"
+		},
+		{
+			"description": "Plan Adjustment",
+			"category": "F80"
+		},
+		{
+			"description": "New Initiatives 2",
+			"category": "F81"
+		},
+		{
+			"description": "New Initiatives 3",
+			"category": "F82"
+		},
+		{
+			"description": "Concessions",
+			"category": "F83"
+		},
+		{
+			"description": "New Initiatives 5",
+			"category": "F84"
+		},
+		{
+			"description": "New Initiatives 7",
+			"category": "F85"
+		},
+		{
+			"description": "Hosp Non Spec",
+			"category": "F86"
+		},
+		{
+			"description": "Eateries",
+			"category": "F87"
+		},
+		{
+			"description": "Bags For Life",
+			"category": "F88"
+		},
+		{
+			"description": "Other Market Place",
+			"category": "F89"
+		},
+		{
+			"description": "Core Market Place",
+			"category": "F90"
+		},
+		{
+			"description": "Ticket/Show Card",
+			"category": "F91"
+		},
+		{
+			"description": "Reduced Sales",
+			"category": "F93"
+		},
+		{
+			"description": "Exception Prods",
+			"category": "F95"
+		},
+		{
+			"description": "Tasting Samples",
+			"category": "F96"
+		},
+		{
+			"description": "Textile Sales",
+			"category": "F97"
+		},
+		{
+			"description": "Wrappers",
+			"category": "F98"
+		},
+		{
+			"description": "Staff Catering",
+			"category": "F99"
+		},
+		{
+			"description": "Food Stock Transfe",
+			"category": "ZFD"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"F01,F02,F03,F04": [
+		{
+			"categories": "F01",
+			"articleNo": "000000000020000860",
+			"articleDescription": "RCA New Chaanges test",
+			"unitDescription": "Dark Chocolate Gateau",
+			"upc": "7845963",
+			"multiSupply": "N",
+			"vendorName": "Bewer's yeast supplier",
+			"ragStatus": "G",
+			"vendorNo": "F01504",
+			"currency": "",
+			"workflowStatus": "N",
+			"requestor": "T0020001",
+			"creationDate": "2019/05/20",
+			"creationTime": "14:49:50",
+			"workflowId": "000000746821",
+			"workflowTitle": "CP Update",
+			"reasonCode": "PC",
+			"role": "BYR",
+			"costPrice": [
+				{
+					"fromDate": "2016/10/23",
+					"endDate": "2016/10/25",
+					"newCostPrice": "1.840",
+					"currentCostPrice": "0.480",
+					"upt": "2",
+					"orderUnit": "O06"
+				}
+			],
+			"supplyChain": [],
+			"equipment": [],
+			"unitWeight": [],
+			"trayWeight": [],
+			"buyerNames": [
+				"Attila Hun"
+			],
+			"supplierName": "sachin supplier",
+			"scpNames": [
+				"Attila Hun"
+			],
+			"multistage": "multistage",
+			"deliveryMethod": "deliveryMethod"
+		},
+		{
+			"categories": "F02",
+			"articleNo": "000000000020000860",
+			"articleDescription": "RCA New Chaanges test",
+			"unitDescription": "Dark Chocolate Gateau",
+			"upc": "7845963",
+			"multiSupply": "N",
+			"vendorName": "Bewer's yeast supplier",
+			"ragStatus": "G",
+			"vendorNo": "F01504",
+			"currency": "",
+			"workflowStatus": "N",
+			"requestor": "T0020001",
+			"creationDate": "2019/05/20",
+			"creationTime": "14:49:50",
+			"workflowId": "000000746821",
+			"workflowTitle": "CP Update",
+			"reasonCode": "PC",
+			"role": "BYR",
+			"costPrice": [
+				{
+					"fromDate": "2016/10/23",
+					"endDate": "2016/10/25",
+					"newCostPrice": "1.840",
+					"currentCostPrice": "0.480",
+					"upt": "2",
+					"orderUnit": "O06"
+				}
+			],
+			"supplyChain": [],
+			"equipment": [],
+			"unitWeight": [],
+			"trayWeight": [],
+			"buyerNames": [
+				"Attila Hun"
+			],
+			"supplierName": "sachin supplier",
+			"scpNames": [
+				"Attila Hun"
+			],
+			"multistage": "multistage",
+			"deliveryMethod": "deliveryMethod"
+		},
+		{
+			"categories": "F03",
+			"articleNo": "000000000020000860",
+			"articleDescription": "RCA New Chaanges test",
+			"unitDescription": "Dark Chocolate Gateau",
+			"upc": "7845963",
+			"multiSupply": "N",
+			"vendorName": "Bewer's yeast supplier",
+			"ragStatus": "G",
+			"vendorNo": "F01504",
+			"currency": "",
+			"workflowStatus": "N",
+			"requestor": "T0020001",
+			"creationDate": "2019/05/20",
+			"creationTime": "14:49:50",
+			"workflowId": "000000746821",
+			"workflowTitle": "CP Update",
+			"reasonCode": "PC",
+			"role": "BYR",
+			"costPrice": [
+				{
+					"fromDate": "2016/10/23",
+					"endDate": "2016/10/25",
+					"newCostPrice": "1.840",
+					"currentCostPrice": "0.480",
+					"upt": "2",
+					"orderUnit": "O06"
+				}
+			],
+			"supplyChain": [],
+			"equipment": [],
+			"unitWeight": [],
+			"trayWeight": [],
+			"buyerNames": [
+				"Attila Hun"
+			],
+			"supplierName": "sachin supplier",
+			"scpNames": [
+				"Attila Hun"
+			],
+			"multistage": "multistage",
+			"deliveryMethod": "deliveryMethod"
+		}
+	]
+}

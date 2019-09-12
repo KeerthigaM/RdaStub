@@ -1,0 +1,9 @@
+{
+"1001001":[{
+"upc": "0101010101","articleNumber": "1001001","articleDescription":"Food To Go","storeCode": "001","siteName":"xyz site","classGroup": "UK_SRDC","purchasingGroups": "F23","multisupply": "N","reasonCode": "1",
+"newOrderUpt":"O3","currentOrderUpt":"O2","supplychainFromDate":"20/01/2016","supplychainToDate":"20/02/2016","newCostPrice":"20","currentCostPrice":"10","priceCurrency":"GBP","costPriceFromDate":"20/01/2016","costPriceToDate":"20/02/2016","accountNumber": "S003","ragStatus": "G","workflowStatus":"N","workItemId":"W001","workItemTitle":"","decision":"A","approverId":"n12345","rejectionReasonCode":"rejected","creationDate":"20/01/2016","creationTime":"01:01:01","requestingUserId":"B12345","actionDate":"20/01/2016","actionTime":"01:01:01"
+}]
+}
+
+
+

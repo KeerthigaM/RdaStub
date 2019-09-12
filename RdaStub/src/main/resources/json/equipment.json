@@ -1,0 +1,46 @@
+[{
+	"equipmentType": "Metric Tray",
+	"equipmentSetting": "Low 2&rdquo;"
+}, {
+	"equipmentType": "Metric Tray",
+	"equipmentSetting": "Medium 5&rdquo;"
+}, {
+	"equipmentType": "Metric Tray",
+	"equipmentSetting": "High 7&rdquo;"
+}, {
+	"equipmentType": "FTO Orange Tray",
+	"equipmentSetting": "Low 2&rdquo;"
+}, {
+	"equipmentType": "FTO Orange Tray",
+	"equipmentSetting": "Medium 5&rdquo;"
+}, {
+	"equipmentType": "FTO Orange Tray",
+	"equipmentSetting": "High 7&rdquo;"
+}, {
+	"equipmentType": "Half Tray",
+	"equipmentSetting": "Low 2&rdquo;"
+}, {
+	"equipmentType": "Half Tray",
+	"equipmentSetting": "Medium 5&rdquo;"
+}, {
+	"equipmentType": "Half Tray",
+	"equipmentSetting": "High 7&rdquo;"
+}, {
+	"equipmentType": "Qbox",
+	"equipmentSetting": "Short Collar"
+}, {
+	"equipmentType": "Qbox",
+	"equipmentSetting": "Long Collar"
+}, {
+	"equipmentType": "Bread Tray",
+	"equipmentSetting": null
+}, {
+	"equipmentType": "Deep Tray",
+	"equipmentSetting": "Nested 2.7&rdquo;;"
+}, {
+	"equipmentType": "Deep Tray",
+	"equipmentSetting": "Full height 11&rdquo;;"
+}, {
+	"equipmentType": "Cardboard",
+	"equipmentSetting": null
+}]
