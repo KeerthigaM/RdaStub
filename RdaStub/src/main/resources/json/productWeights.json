@@ -1,0 +1,18 @@
+{
+	"000000000060121523": [
+		{
+			"vendorNo": "F01504",
+			"articleNo": "000000000060121523",
+			"upc": "542784",
+			"unitWeightValidFromDate": "2019/09/15",
+			"unitWeightValidToDate": "9999/12/31",
+			"trayWeightValidFromDate": "2019/09/15",
+			"trayWeightValidToDate": "9999/12/31",
+			"unitNetWeight": "5",
+			"packNetContent": "50",
+			"trayNetWeight": "50",
+			"trayGrossWeight": "500",
+			"upt": "10"
+		}
+	]
+}

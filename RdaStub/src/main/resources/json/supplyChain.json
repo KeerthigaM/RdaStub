@@ -1,25 +1,31 @@
 {
-"29742094-UK_SRDC-ZFB":[{
-"vendorNo":"","upc":"0101010101","articleNo":"29742094","siteGroup":"UK_SRDC","classType":"ZFB","fromDate":"01-01-2016","toDate":"25-01-2016","siteCode":"001","siteName":"Depo1","orderUnit":"O02","siteCategory":"","singleDepot":"false"
-}
-],
-"29742094-UK_NRDC-ZFB":[{
-"vendorNo":"","upc":"0101010101","articleNo":"29742094","siteGroup":"UK_NRDC","classType":"ZFB","fromDate":"01-01-2016","toDate":"31-12-2999","siteCode":"001","siteName":"Depo1","orderUnit":"O02","siteCategory":"","singleDepot":"false"
-},
-{
-"vendorNo":"","upc":"0101010101","articleNo":"29742094","siteGroup":"UK_NRDC","classType":"ZFB","fromDate":"01-02-2016","toDate":"25-03-2016","siteCode":"002","siteName":"Depo2","orderUnit":"O01","siteCategory":"","singleDepot":"false"
-},
-{
-"vendorNo":"","upc":"0101010101","articleNo":"29742094","siteGroup":"UK_NRDC","classType":"ZFB","fromDate":"11-01-2016","toDate":"10-03-2016","siteCode":"003","siteName":"Depo3","orderUnit":"O01","siteCategory":"","singleDepot":"false"
-},
-{
-"vendorNo":"","upc":"0101010102","articleNo":"29742091","siteGroup":"UK_NRDC1","classType":"ZFB","fromDate":"11-01-2016","toDate":"10-03-2016","siteCode":"000","siteName":"Depo3","orderUnit":"O01","siteCategory":"","singleDepot":"true"
-}
-],
-"29742094-UK_NDC-ZFC":[{
-"vendorNo":"","upc":"74729720","articleNo":"29742094","siteGroup":"UK_NDC","classType":"ZFC","fromDate":"01-01-2016","toDate":"25-01-2016","siteCode":"B001","siteName":"Bradford","orderUnit":"O01","siteCategory":"","singleDepot":"true",
-}],
-"29742094-Irish_Stores-ZFA":[{
-"vendorNo":"","upc":"74729720","articleNo":"29742094","siteGroup":"Irish_Stores","classType":"ZFA","fromDate":"01-01-2016","toDate":"25-01-2016","siteCode":"B001","siteName":"Irish Store","orderUnit":"O01","siteCategory":"","singleDepot":"true",
-}]
+	"000000000060028909": [
+		{
+			"articleNo": "000000000060028909",
+			"upc": "873116",
+			"classType": "ZFB",
+			"siteGroup": "ZRDARDC",
+			"siteCode": "3942",
+			"siteName": "Enfield RDC",
+			"vendorNo": "F07409",
+			"fromDate": "2018/04/01",
+			"toDate": "9999/12/31",
+			"orderUnit": "O04",
+			"siteCategory": "B"
+		},
+		{
+			"articleNo": "000000000060028909",
+			"upc": "873116",
+			"classType": "ZFB",
+			"siteGroup": "ZRDARDC",
+			"siteCode": "5173",
+			"siteName": "CUMBERNAULD GIST DEPOT",
+			"vendorNo": "F07409",
+			"fromDate": "2018/04/01",
+			"toDate": "9999/12/31",
+			"orderUnit": "O04",
+			"siteCategory": "B",
+			"singleDepot": false
+		}
+	]
 }

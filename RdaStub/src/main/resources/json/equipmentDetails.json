@@ -1,56 +1,16 @@
-[{
-	"vendorNo": "S003",
-	"orderUnit": "O01",
-	"upc": "19847298",
-	"articleNo": "27597509",
-	"upt": "6",
-	"fromDate": "01/01/2016",
-	"toDate": "31/10/2016",
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "Low 2&rdquo;",
-	"message": ""
-}, {
-	"vendorNo": "S003",
-	"orderUnit": "O01",
-	"upc": "19847298",
-	"articleNo": "27597509",
-	"upt": "6",
-	"fromDate": "2016/11/01",
-	"toDate": "2016/12/31",
-	"equipmentType": "Half Tray",
-	"equipmentSetting": "Medium 5&rdquo;",
-	"message": ""
-}, {
-	"vendorNo": "S003",
-	"orderUnit": "O01",
-	"upc": "19847298",
-	"articleNo": "27597509",
-	"upt": "6",
-	"fromDate": "01/01/2017",
-	"toDate": "31/12/9999",
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "Low 2&rdquo;",
-	"message": ""
-}, {
-	"vendorNo": "S003",
-	"orderUnit": "O05",
-	"upc": "19847298",
-	"articleNo": "27597509",
-	"upt": "14",
-	"fromDate": "01/01/2016",
-	"toDate": "31/10/2016",
-	"equipmentType": "Half Tray",
-	"equipmentSetting": "Medium 5&rdquo;",
-	"message": ""
-}, {
-	"vendorNo": "S003",
-	"orderUnit": "O05",
-	"upc": "19847298",
-	"articleNo": "27597509",
-	"upt": "14",
-	"fromDate": "01/01/2017",
-	"toDate": "31/12/9999",
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "High 7&rdquo;",
-	"message": ""
-}]
+{
+	"000000000060121523": [
+		{
+			"articleNo": "000000000060121523",
+			"upc": "542784",
+			"vendorNo": "",
+			"upt": "4",
+			"orderUnit": "O02",
+			"fromDate": "2019/09/15",
+			"toDate": "9999/12/31",
+			"equipmentType": "CARDBOARD",
+			"equipmentSetting": "N/A",
+			"status": "P"
+		}
+	]
+}

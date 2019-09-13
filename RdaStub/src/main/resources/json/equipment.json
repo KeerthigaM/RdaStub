@@ -1,46 +1,62 @@
-[{
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "Low 2&rdquo;"
-}, {
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "Medium 5&rdquo;"
-}, {
-	"equipmentType": "Metric Tray",
-	"equipmentSetting": "High 7&rdquo;"
-}, {
-	"equipmentType": "FTO Orange Tray",
-	"equipmentSetting": "Low 2&rdquo;"
-}, {
-	"equipmentType": "FTO Orange Tray",
-	"equipmentSetting": "Medium 5&rdquo;"
-}, {
-	"equipmentType": "FTO Orange Tray",
-	"equipmentSetting": "High 7&rdquo;"
-}, {
-	"equipmentType": "Half Tray",
-	"equipmentSetting": "Low 2&rdquo;"
-}, {
-	"equipmentType": "Half Tray",
-	"equipmentSetting": "Medium 5&rdquo;"
-}, {
-	"equipmentType": "Half Tray",
-	"equipmentSetting": "High 7&rdquo;"
-}, {
-	"equipmentType": "Qbox",
-	"equipmentSetting": "Short Collar"
-}, {
-	"equipmentType": "Qbox",
-	"equipmentSetting": "Long Collar"
-}, {
-	"equipmentType": "Bread Tray",
-	"equipmentSetting": null
-}, {
-	"equipmentType": "Deep Tray",
-	"equipmentSetting": "Nested 2.7&rdquo;;"
-}, {
-	"equipmentType": "Deep Tray",
-	"equipmentSetting": "Full height 11&rdquo;;"
-}, {
-	"equipmentType": "Cardboard",
-	"equipmentSetting": null
-}]
+[
+    {
+        "equipmentType": "BREAD TRAY",
+        "equipmentSetting": "N/A"
+    },
+    {
+        "equipmentType": "CARDBOARD",
+        "equipmentSetting": "N/A"
+    },
+    {
+        "equipmentType": "DEEP TRAY",
+        "equipmentSetting": "FULL HEIGHT"
+    },
+    {
+        "equipmentType": "DEEP TRAY",
+        "equipmentSetting": "NESTED"
+    },
+    {
+        "equipmentType": "FTO ORANGE TRAY",
+        "equipmentSetting": "HIGH"
+    },
+    {
+        "equipmentType": "FTO ORANGE TRAY",
+        "equipmentSetting": "LOW"
+    },
+    {
+        "equipmentType": "FTO ORANGE TRAY",
+        "equipmentSetting": "MEDIUM"
+    },
+    {
+        "equipmentType": "HALF TRAY",
+        "equipmentSetting": "HIGH"
+    },
+    {
+        "equipmentType": "HALF TRAY",
+        "equipmentSetting": "LOW"
+    },
+    {
+        "equipmentType": "HALF TRAY",
+        "equipmentSetting": "MEDIUM"
+    },
+    {
+        "equipmentType": "METRIC TRAY",
+        "equipmentSetting": "HIGH"
+    },
+    {
+        "equipmentType": "METRIC TRAY",
+        "equipmentSetting": "LOW"
+    },
+    {
+        "equipmentType": "METRIC TRAY",
+        "equipmentSetting": "MEDIUM"
+    },
+    {
+        "equipmentType": "Q-BOX",
+        "equipmentSetting": "LONG COLLAR"
+    },
+    {
+        "equipmentType": "Q-BOX",
+        "equipmentSetting": "SHORT COLLAR"
+    }
+]

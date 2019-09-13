@@ -1,0 +1,28 @@
+{
+	"ZFA": [
+		{
+			"classType": "ZFA",
+			"siteGroupName": "CLONSHAUGH",
+			"siteGroup": "ZRDACLONSH"
+		}
+	],
+	"ZFB": [
+		{
+			"classType": "ZFB",
+			"siteGroupName": "UK RDCs excluding Maylands",
+			"siteGroup": "ZRDARDC1"
+		},
+		{
+			"classType": "ZFB",
+			"siteGroupName": "UK RDCs ",
+			"siteGroup": "ZRDARDC"
+		}
+	],
+	"ZFC": [
+		{
+			"classType": "ZFC",
+			"siteGroupName": "Bradford,Bedworth",
+			"siteGroup": "ZRDANDC"
+		}
+	]
+}
