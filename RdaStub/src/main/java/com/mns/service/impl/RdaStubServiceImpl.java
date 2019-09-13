@@ -1,12 +1,16 @@
 package com.mns.service.impl;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.List;
 import java.util.Random;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
@@ -239,8 +243,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getEquipment");
 		Reader reader = null;
 		List<Equipment> equipmentList = null;
+		Resource resource = null;
 		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipment.json"));
+			resource = new ClassPathResource("json/equipment.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipment.json"));
 			TypeToken<List<Equipment>> token = new TypeToken<List<Equipment>>(){};
 			equipmentList = new Gson().fromJson(reader, token.getType());
 		} catch (Exception e) {
