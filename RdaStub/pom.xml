@@ -41,6 +41,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>rda-stub</finalName>
+		<finalName>RdaStub</finalName>
 	</build>
 </project>

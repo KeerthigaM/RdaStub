@@ -1,19 +1,15 @@
 package com.mns.service.impl;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.List;
 import java.util.Random;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ResourceUtils;
-
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -43,8 +39,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getProducts");
 		Reader reader = null;
 		List<Product> productList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\products.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\products.json"));
+			resource = new ClassPathResource("json/products.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(categories);
@@ -63,13 +62,16 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getUpt");
 		Reader reader = null;
 		List<Upt> uptList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\upt.json"));
+		Resource resource = null;
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\upt.json"));
+			resource = new ClassPathResource("json/upt.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000060051267");
+				jsonArr = jsonObj.getAsJsonArray("000000000021039347");
 			}
 			TypeToken<List<Upt>> token = new TypeToken<List<Upt>>(){};
 			uptList = new Gson().fromJson(jsonArr, token.getType());
@@ -83,8 +85,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getCategories");
 		Reader reader = null;
 		List<Category> categoryList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\categories.json"));
+		Resource resource = null; 
+		try{
+		//	reader = new FileReader(ResourceUtils.getFile("classpath:json\\categories.json"));
+			resource = new ClassPathResource("json/categories.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(grp_category);
@@ -103,8 +108,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getProduct");
 		Reader reader = null;
 		List<Product> productList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\product.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\product.json"));
+			resource = new ClassPathResource("json/product.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
@@ -123,8 +131,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getSiteGroups");
 		Reader reader = null;
 		List<SiteGroup> SiteGroupList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\siteGroups.json"));
+		Resource resource = null;
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\siteGroups.json"));
+			resource = new ClassPathResource("json/siteGroups.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(classType);
@@ -143,8 +154,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getSupplyChainData");
 		Reader reader = null;
 		List<SupplyChain> supplyChainList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\supplyChain.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\supplyChain.json"));
+			resource = new ClassPathResource("json/supplyChain.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
@@ -172,8 +186,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getPendingWorkflows");
 		Reader reader = null;
 		List<Workflow> workflowList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\pendingWorkflows.json"));
+		Resource resource = null;
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\pendingWorkflows.json"));
+			resource = new ClassPathResource("json/pendingWorkflows.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(categories);
@@ -203,8 +220,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getWorkflowReport");
 		Reader reader = null;
 		List<Report> reportList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\report.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\report.json"));
+			resource = new ClassPathResource("json/report.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(upc);
@@ -223,8 +243,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getVendors");
 		Reader reader = null;
 		List<Vendor> VendorList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\vendors.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\vendors.json"));
+			resource = new ClassPathResource("json/vendors.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(account_grp);
@@ -244,10 +267,10 @@ public class RdaStubServiceImpl {
 		Reader reader = null;
 		List<Equipment> equipmentList = null;
 		Resource resource = null;
-		try {
+		try{		
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipment.json"));
 			resource = new ClassPathResource("json/equipment.json");
 			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
-			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipment.json"));
 			TypeToken<List<Equipment>> token = new TypeToken<List<Equipment>>(){};
 			equipmentList = new Gson().fromJson(reader, token.getType());
 		} catch (Exception e) {
@@ -260,8 +283,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getEquipmentDetails");
 		Reader reader = null;
 		List<EquipmentDetails> equipmentDetailsList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipmentDetails.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\equipmentDetails.json"));
+			resource = new ClassPathResource("json/equipmentDetails.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
@@ -280,8 +306,11 @@ public class RdaStubServiceImpl {
 		LOGGER.info("getProductsWeights");
 		Reader reader = null;
 		List<ProductWeights> ProductWeightsList = null;
-		try {
-			reader = new FileReader(ResourceUtils.getFile("classpath:json\\productWeights.json"));
+		Resource resource = null; 
+		try{
+			//reader = new FileReader(ResourceUtils.getFile("classpath:json\\productWeights.json"));
+			resource = new ClassPathResource("json/productWeights.json");
+			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);

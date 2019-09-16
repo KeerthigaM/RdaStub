@@ -1,32 +1,24 @@
 {
-	"000000000060051267": [
+	"000000000021039347": [
 		{
+			"vendorNo": "F01501",
+			"articleNo": "000000000021039347",
+			"upc": "637251",
+			"validFrom": null,
 			"orderUnit": "O01",
-			"upc": "19847298",
-			"articleNo": "000000000060051267",
-			"upt": "6",
-			"baseUnit": "",
+			"upt": "24",
+			"message": "",
+			"baseUnit": "EA",
 			"productUnitType": "",
-			"fromDate": "01/01/2016",
-			"toDate": "01/02/2016",
-			"costPrice": "5",
-			"priceCurrency": "GBP",
-			"priceUnit": "1",
-			"message": ""
-		},
-		{
-			"orderUnit": "O01",
-			"upc": "19847298",
-			"articleNo": "000000000060051267",
-			"upt": "6",
-			"baseUnit": "",
-			"productUnitType": "",
-			"fromDate": "01/01/2016",
-			"toDate": "01/02/2016",
-			"costPrice": "5",
-			"priceCurrency": "GBP",
-			"priceUnit": "1",
-			"message": ""
+			"fromDate": null,
+			"toDate": null,
+			"costPrice": "0.000",
+			"currency": "",
+			"priceUnit": "0.000",
+			"unitNetWeight": "0",
+			"packNetContent": "0",
+			"trayNetContent": null,
+			"trayGrossWeight": "0.0000"
 		}
 	]
 }
