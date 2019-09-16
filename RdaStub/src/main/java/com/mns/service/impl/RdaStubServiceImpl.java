@@ -48,7 +48,7 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(categories);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("F33");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<Product>> token = new TypeToken<List<Product>>(){};
 			productList = new Gson().fromJson(jsonArr, token.getType());
@@ -71,10 +71,14 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000021039347");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<Upt>> token = new TypeToken<List<Upt>>(){};
 			uptList = new Gson().fromJson(jsonArr, token.getType());
+			for(Upt u: uptList){
+				u.setArticleNo(articleNo);
+				u.setVendorNo(vendorNo);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -115,12 +119,24 @@ public class RdaStubServiceImpl {
 			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
-			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
+			JsonArray jsonArr = jsonObj.getAsJsonArray(categories);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000060010994");
+				jsonArr = jsonObj.getAsJsonArray("ALL");				
 			}
 			TypeToken<List<Product>> token = new TypeToken<List<Product>>(){};
 			productList = new Gson().fromJson(jsonArr, token.getType());
+			if(categories.contains(",")) {
+				for(Product p: productList){
+					p.setCategories(categories.split(",")[0]);
+					p.setArticleNo(articleNo);
+				}
+			}
+			else {
+				for(Product p: productList){
+					p.setCategories(categories);
+					p.setArticleNo(articleNo);
+				}
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

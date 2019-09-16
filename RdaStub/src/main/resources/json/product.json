@@ -1,5 +1,5 @@
 {
-	"000000000060010994": [
+	"ALL": [
 		{
 			"upc": "807623",
 			"articleNo": "000000000060010994",
@@ -13,20 +13,5 @@
 			"vendorName": "TANGERINE CONFECTIONERY",
 			"message": ""
 		}
-	],
-	"000000000060004008": [
-		{
-			"upc": "787611",
-			"articleNo": "000000000060004008",
-			"articleDescription": "MIRACLE HAIR RESTORING C",
-			"unitDescription": "MIRACLE HAIR RE",
-			"categories": "F33",
-			"deptName": "AmbientCelebration",
-			"deliveryMethod": "A",
-			"vendorNo": "F01504",
-			"currency": "GBP",
-			"vendorName": "TANGERINE CONFECTIONERY",
-			"message": ""
-		}
-	]
+	]	
 }

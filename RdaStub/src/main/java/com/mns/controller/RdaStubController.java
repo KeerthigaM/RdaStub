@@ -41,6 +41,11 @@ public class RdaStubController {
 	@Resource
 	private RdaStubServiceImpl serviceImpl;
 	
+	@RequestMapping(value = "/status", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<String> status(){
+		return new ResponseEntity<String>("UP", HttpStatus.OK);
+	}
+	
 	@RequestMapping(value = "/products", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Product>> getProducts(
 			@RequestParam(value = "vendorNo", required = true) final String vendorNo, 
@@ -121,18 +126,18 @@ public class RdaStubController {
 	}
 	@RequestMapping(value = "/report", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Report>> getWorkflowReport(
-			@RequestParam(value = "upc", required = true) final String upc, 
+			@RequestParam(value = "upc", required = false) final String upc, 
 			@RequestParam(value = "categories", required = true) final String categories,
 			@RequestParam(value = "vendorNo", required = true) final String vendorNo,
-			@RequestParam(value = "reasonCode", required = true) final String reasonCode,
-			@RequestParam(value = "workflowStatus", required = true) final String workflowStatus,
-			@RequestParam(value = "backendStatus", required = true) final String backendStatus,
-			@RequestParam(value = "ragStatus", required = true) final String ragStatus,
-			@RequestParam(value = "actionDateFrom", required = true) final String actionDateFrom,
-			@RequestParam(value = "actionDateTo", required = true) final String actionDateTo,
-			@RequestParam(value = "actionTimeFrom", required = true) final String actionTimeFrom, 
-			@RequestParam(value = "actionTimeTo", required = true) final String actionTimeTo,
-			@RequestParam(value = "roleCode", required = true) final String roleCode){
+			@RequestParam(value = "reasonCode", required = false) final String reasonCode,
+			@RequestParam(value = "workflowStatus", required = false) final String workflowStatus,
+			@RequestParam(value = "backendStatus", required = false) final String backendStatus,
+			@RequestParam(value = "ragStatus", required = false) final String ragStatus,
+			@RequestParam(value = "actionDateFrom", required = false) final String actionDateFrom,
+			@RequestParam(value = "actionDateTo", required = false) final String actionDateTo,
+			@RequestParam(value = "actionTimeFrom", required = false) final String actionTimeFrom, 
+			@RequestParam(value = "actionTimeTo", required = false) final String actionTimeTo,
+			@RequestParam(value = "roleCode", required = false) final String roleCode){
 		LOGGER.info("getWorkflowReport for [categories: {}]", categories);
 		final List<Report> reportList = serviceImpl.getWorkflowReport(upc,categories ,vendorNo ,reasonCode ,workflowStatus ,backendStatus ,ragStatus ,actionDateFrom ,actionDateTo ,actionTimeFrom ,actionTimeTo,roleCode);
 		LOGGER.info("/report found {}", categories, reportList.size());
@@ -140,7 +145,7 @@ public class RdaStubController {
 	}
 	@RequestMapping(value = "/vendors", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<List<Vendor>> getVendors(
-			@RequestParam(value = "account_grp", required = true) final String account_grp){
+			@RequestParam(value = "account_grp", required = false) final String account_grp){
 		LOGGER.info("getVendors for [account_grp: {}]", account_grp);
 		final List<Vendor> vendorList = serviceImpl.getVendors(account_grp);
 		LOGGER.info("/vendors?account_grp={} found {}", account_grp, vendorList.size());
@@ -158,7 +163,7 @@ public class RdaStubController {
 			@PathVariable("articleNo") final String articleNo,
 			@PathVariable("vendorNo") final String vendorNo,
 			@RequestParam(value = "validFrom", required = true) final String validFrom, 
-			@RequestParam(value = "orderUnit", required = true) final String orderUnit){
+			@RequestParam(value = "orderUnit", required = false) final String orderUnit){
 		LOGGER.info("getEquipmentDetails for[vendorNo: {}] and [articleNo : {}] and [orderUnit:{}] and [validFrom:{}]", vendorNo, articleNo, orderUnit, validFrom);
 		final List<EquipmentDetails> equipmentDetailsList = serviceImpl.getEquipmentDetails(articleNo,vendorNo,validFrom,orderUnit);
 		LOGGER.info("/product/{}/vendor/{}/equipment?validFrom={} found {}", articleNo,vendorNo,validFrom,equipmentDetailsList.size());

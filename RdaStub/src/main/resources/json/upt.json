@@ -1,5 +1,5 @@
 {
-	"000000000021039347": [
+	"ALL": [
 		{
 			"vendorNo": "F01501",
 			"articleNo": "000000000021039347",
@@ -10,10 +10,10 @@
 			"message": "",
 			"baseUnit": "EA",
 			"productUnitType": "",
-			"fromDate": null,
-			"toDate": null,
-			"costPrice": "0.000",
-			"currency": "",
+			"fromDate": "2019/05/13",
+			"toDate": "9999/12/31",
+			"costPrice": "6.5400",
+			"currency": "GBP",
 			"priceUnit": "0.000",
 			"unitNetWeight": "0",
 			"packNetContent": "0",

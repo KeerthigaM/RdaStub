@@ -5,7 +5,7 @@
 	<groupId>com.mns</groupId>
 	<artifactId>RdaStub</artifactId>
 	<version>0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>RdaStub</name>
 	<description>RdaStub</description>
 	<parent>
@@ -30,6 +30,16 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.logentries</groupId>
+			<artifactId>logentries-appender</artifactId>
+			<version>RELEASE</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -41,6 +51,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>RdaStub</finalName>
+		<finalName>ROOT</finalName>
 	</build>
 </project>

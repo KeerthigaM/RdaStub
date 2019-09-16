@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<springProperty scope="context" name="logentries.token" source="token.logentries"/>
+	<appender name="LE" class="com.logentries.logback.LogentriesAppender">
+		<Token>${logentries.token}</Token>
+		<Debug>False</Debug>
+		<Ssl>False</Ssl>
+		<facility>USER</facility>
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<logger name="com.mns" level="${log.level.application}"></logger>
+	<root level="WARN">
+	  <!-- <appender-ref ref="STDOUT" /> -->
+	  <appender-ref ref="LE" />
+	</root>
+</configuration>
