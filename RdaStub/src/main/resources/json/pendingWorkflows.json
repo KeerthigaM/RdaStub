@@ -1,5 +1,5 @@
 {
-	"F22": [
+	"ALL": [
 		{
 			"categories": "F22",
 			"articleNo": "000000000020059481",
@@ -11,9 +11,9 @@
 			"ragStatus": "G",
 			"vendorNo": "F01953",
 			"currency": "GBP",
-			"workflowStatus": "A",
+			"workflowStatus": "N",
 			"requestor": "T00S0076",
-			"creationDate": "2019/09/08",
+			"creationDate": "2019/09/16",
 			"creationTime": "21:35:33",
 			"workflowId": "000017139103",
 			"workflowTitle": "Equipment Mode Update",
@@ -23,7 +23,7 @@
 			"deliveryMethod": "R",
 			"costPrice": [
 				{
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "9999/12/31",
 					"newCostPrice": "10.160",
 					"currentCostPrice": "0.000",
@@ -71,7 +71,7 @@
 					"newOrderUnit": "O03",
 					"currentUPT": "12",
 					"newUPT": "13",
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "2019/09/28",
 					"siteGroup": "ZRDARDC"
 				}
@@ -80,7 +80,7 @@
 				{
 					"orderUnit": "O03",
 					"upt": "13",
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "9999/12/31",
 					"newEquipmentType": "HALF TRAY",
 					"newEquipmentSetting": "LOW",
@@ -102,9 +102,9 @@
 			"ragStatus": "G",
 			"vendorNo": "F01953",
 			"currency": "GBP",
-			"workflowStatus": "A",
+			"workflowStatus": "N",
 			"requestor": "T00S0076",
-			"creationDate": "2019/09/08",
+			"creationDate": "2019/09/16",
 			"creationTime": "21:41:39",
 			"workflowId": "000017139186",
 			"workflowTitle": "Cost Price Update",
@@ -114,7 +114,7 @@
 			"deliveryMethod": "B",
 			"costPrice": [
 				{
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "9999/12/31",
 					"newCostPrice": "8.640",
 					"currentCostPrice": "0.000",
@@ -162,7 +162,7 @@
 					"newOrderUnit": "O02",
 					"currentUPT": "12",
 					"newUPT": "13",
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "2019/09/28",
 					"siteGroup": "ZRDARDC"
 				}
@@ -171,7 +171,7 @@
 				{
 					"orderUnit": "O02",
 					"upt": "13",
-					"fromDate": "2019/09/13",
+					"fromDate": "2019/09/30",
 					"endDate": "9999/12/31",
 					"newEquipmentType": "HALF TRAY",
 					"newEquipmentSetting": "LOW",

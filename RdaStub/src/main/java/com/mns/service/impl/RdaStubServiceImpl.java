@@ -52,12 +52,18 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<Product>> token = new TypeToken<List<Product>>(){};
 			productList = new Gson().fromJson(jsonArr, token.getType());
+			String category = getSingleData(categories);
+			String vendor = getSingleData(vendorNo);
+			for(Product p: productList){
+				p.setCategories(category);
+				p.setVendorNo(vendor);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return productList;
 	}
-
+	
 	public List<Upt> getUpt(String articleNo, String vendorNo, String orderUnit, String validFrom) {
 		LOGGER.info("getUpt");
 		Reader reader = null;
@@ -75,9 +81,10 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<Upt>> token = new TypeToken<List<Upt>>(){};
 			uptList = new Gson().fromJson(jsonArr, token.getType());
+			String vendor = getSingleData(vendorNo);
 			for(Upt u: uptList){
 				u.setArticleNo(articleNo);
-				u.setVendorNo(vendorNo);
+				u.setVendorNo(vendor);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -125,17 +132,10 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<Product>> token = new TypeToken<List<Product>>(){};
 			productList = new Gson().fromJson(jsonArr, token.getType());
-			if(categories.contains(",")) {
-				for(Product p: productList){
-					p.setCategories(categories.split(",")[0]);
-					p.setArticleNo(articleNo);
-				}
-			}
-			else {
-				for(Product p: productList){
-					p.setCategories(categories);
-					p.setArticleNo(articleNo);
-				}
+			String category = getSingleData(categories);
+			for(Product p: productList){
+				p.setCategories(category);
+				p.setArticleNo(articleNo);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -211,10 +211,14 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(categories);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("F22");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<Workflow>> token = new TypeToken<List<Workflow>>(){};
 			workflowList = new Gson().fromJson(jsonArr, token.getType());
+			String category = getSingleData(categories);
+			for(Workflow w: workflowList){
+				w.setCategories(category);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -249,6 +253,14 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<Report>> token = new TypeToken<List<Report>>(){};
 			reportList = new Gson().fromJson(jsonArr, token.getType());
+			String category = getSingleData(categories);
+			String vendor = "";
+			if(vendorNo!=null)
+				vendor = getSingleData(vendorNo);			 
+			for(Report r: reportList){
+				r.setCategories(category);
+				r.setVendorNo(vendor);
+			}			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -312,6 +324,11 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<EquipmentDetails>> token = new TypeToken<List<EquipmentDetails>>(){};
 			equipmentDetailsList = new Gson().fromJson(jsonArr, token.getType());
+			String vendor = getSingleData(vendorNo);
+			for(EquipmentDetails e: equipmentDetailsList){
+				e.setVendorNo(vendor);
+				e.setArticleNo(articleNo);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -335,6 +352,11 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<ProductWeights>> token = new TypeToken<List<ProductWeights>>(){};
 			ProductWeightsList = new Gson().fromJson(jsonArr, token.getType());
+			String vendor = getSingleData(vendorNo);
+			for(ProductWeights p: ProductWeightsList){
+				p.setVendorNo(vendor);
+				p.setArticleNo(articleNo);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -343,5 +365,12 @@ public class RdaStubServiceImpl {
 
 	public String sendEmail(String emailIds, String emailBody, String emailSubject) {
 		return "Mail Sent!!";
+	}
+
+	private String getSingleData(String data) {
+		if(data.contains(","))
+			return data.split(",")[0];
+		else 
+			return data;
 	}
 }

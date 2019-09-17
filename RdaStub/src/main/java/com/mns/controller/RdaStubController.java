@@ -128,7 +128,7 @@ public class RdaStubController {
 	public ResponseEntity<List<Report>> getWorkflowReport(
 			@RequestParam(value = "upc", required = false) final String upc, 
 			@RequestParam(value = "categories", required = true) final String categories,
-			@RequestParam(value = "vendorNo", required = true) final String vendorNo,
+			@RequestParam(value = "vendorNo", required = false) final String vendorNo,
 			@RequestParam(value = "reasonCode", required = false) final String reasonCode,
 			@RequestParam(value = "workflowStatus", required = false) final String workflowStatus,
 			@RequestParam(value = "backendStatus", required = false) final String backendStatus,
