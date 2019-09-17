@@ -363,8 +363,9 @@ public class RdaStubServiceImpl {
 		return ProductWeightsList;
 	}
 
-	public String sendEmail(String emailIds, String emailBody, String emailSubject) {
-		return "Mail Sent!!";
+	public String sendEmail(List<String> emailIds, String emailBody, String emailSubject) {
+		LOGGER.info("sendEmail");
+		return "SUCCESS";
 	}
 
 	private String getSingleData(String data) {

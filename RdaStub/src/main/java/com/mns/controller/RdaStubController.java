@@ -179,13 +179,14 @@ public class RdaStubController {
 		return new ResponseEntity<List<ProductWeights>>(productWeightsList, HttpStatus.OK);
 	}
 	@RequestMapping(value = "/email", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public void sendEmail(
-			@RequestParam(value = "emailIds", required = true) final String emailIds,
+	public ResponseEntity<String> sendEmail(
+			@RequestParam(value = "emailIds", required = true) final List<String> emailIds,
 			@RequestParam(value = "emailBody", required = true) final String emailBody,
 			@RequestParam(value = "emailSubject", required = true) final String emailSubject){
 		LOGGER.info("sendEmail for [emailAddresses: {}]", emailIds);
 		final String status = serviceImpl.sendEmail(emailIds,emailBody,emailSubject);
-		LOGGER.info("/email {}{}" ,status,HttpStatus.OK);
+		LOGGER.info("/email {}" ,status);
+		return new ResponseEntity<String>(status, HttpStatus.OK);
 	}	
 	//addParamRoleForDualStageWorkflowRequest(roleCode)	
 }
