@@ -103,8 +103,7 @@ public class RdaStubController {
 		return new ResponseEntity<List<SupplyChain>>(SupplyChainList, HttpStatus.OK);
 	}
 	@RequestMapping(value = "/workflow/trigger", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<WorkflowCreationMessage> triggerWorkflowData(
-			@RequestBody final MuleWorkflowRequest wfr){
+	public ResponseEntity<WorkflowCreationMessage> triggerWorkflowData(@RequestBody final MuleWorkflowRequest wfr){
 		LOGGER.info("triggerWorkflowData");
 		final WorkflowCreationMessage workflowCreationMessage = serviceImpl.triggerWorkflowData(wfr);
 		return new ResponseEntity<WorkflowCreationMessage>(workflowCreationMessage, HttpStatus.OK);
@@ -118,7 +117,7 @@ public class RdaStubController {
 		return new ResponseEntity<List<Workflow>>(workflowList, HttpStatus.OK);
 	}
 	@RequestMapping(value = "/workflow/approve", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<WorkflowApprovalMessage> approveWorkflowData(MuleWorkflowApproval wfa){
+	public ResponseEntity<WorkflowApprovalMessage> approveWorkflowData(@RequestBody final MuleWorkflowApproval wfa){
 		LOGGER.info("approveWorkflowData");
 		final WorkflowApprovalMessage wam = serviceImpl.approveWorkflowData(wfa);
 		LOGGER.info("approveWorkflowData for workflowId {}", wam.getWorkflowId());
@@ -186,7 +185,7 @@ public class RdaStubController {
 			@RequestParam(value = "emailSubject", required = true) final String emailSubject){
 		LOGGER.info("sendEmail for [emailAddresses: {}]", emailIds);
 		final String status = serviceImpl.sendEmail(emailIds,emailBody,emailSubject);
-		LOGGER.info("/email {}" ,status);
+		LOGGER.info("/email {}{}" ,status,HttpStatus.OK);
 	}	
 	//addParamRoleForDualStageWorkflowRequest(roleCode)	
 }

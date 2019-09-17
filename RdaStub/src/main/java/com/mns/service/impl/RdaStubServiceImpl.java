@@ -5,11 +5,13 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.List;
 import java.util.Random;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -179,7 +181,7 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000060028909");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<SupplyChain>> token = new TypeToken<List<SupplyChain>>(){};
 			supplyChainList = new Gson().fromJson(jsonArr, token.getType());
@@ -249,14 +251,12 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(upc);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("117968");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<Report>> token = new TypeToken<List<Report>>(){};
 			reportList = new Gson().fromJson(jsonArr, token.getType());
 			String category = getSingleData(categories);
-			String vendor = "";
-			if(vendorNo!=null)
-				vendor = getSingleData(vendorNo);			 
+			String vendor = getSingleData(vendorNo);
 			for(Report r: reportList){
 				r.setCategories(category);
 				r.setVendorNo(vendor);
@@ -320,7 +320,7 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000060121523");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<EquipmentDetails>> token = new TypeToken<List<EquipmentDetails>>(){};
 			equipmentDetailsList = new Gson().fromJson(jsonArr, token.getType());
@@ -348,7 +348,7 @@ public class RdaStubServiceImpl {
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
 			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
 			if (jsonArr == null) {
-				jsonArr = jsonObj.getAsJsonArray("000000000060121523");
+				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
 			TypeToken<List<ProductWeights>> token = new TypeToken<List<ProductWeights>>(){};
 			ProductWeightsList = new Gson().fromJson(jsonArr, token.getType());
@@ -368,9 +368,13 @@ public class RdaStubServiceImpl {
 	}
 
 	private String getSingleData(String data) {
-		if(data.contains(","))
-			return data.split(",")[0];
-		else 
-			return data;
+		if(data !=null) {
+			if(data.contains(","))
+				return data.split(",")[0];
+			else 
+				return data;
+		}else {
+			return "";
+		}
 	}
 }
