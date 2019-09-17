@@ -362,12 +362,7 @@ public class RdaStubServiceImpl {
 		}
 		return ProductWeightsList;
 	}
-
-	public String sendEmail(List<String> emailIds, String emailBody, String emailSubject) {
-		LOGGER.info("sendEmail");
-		return "SUCCESS";
-	}
-
+	
 	private String getSingleData(String data) {
 		if(data !=null) {
 			if(data.contains(","))
