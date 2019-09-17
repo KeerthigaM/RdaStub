@@ -186,5 +186,4 @@ public class RdaStubController {
 		LOGGER.info("sendEmail for [emailIds {} ,emailBody {} , emailSubject {}]", emailIds,emailBody,emailSubject);
 		return new ResponseEntity<String>("SUCCESS", HttpStatus.OK);
 	}	
-	//addParamRoleForDualStageWorkflowRequest(roleCode)	
 }

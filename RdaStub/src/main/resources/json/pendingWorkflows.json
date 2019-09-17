@@ -1,186 +1,2951 @@
 {
-	"ALL": [
-		{
-			"categories": "F22",
-			"articleNo": "000000000020059481",
-			"articleDescription": "E EW TRIPLE GRP/RASP.",
-			"unitDescription": "E EW TRIPLE GR/RA",
-			"upc": "663960",
-			"multiSupply": "N",
-			"vendorName": "PRINCES SOFT DRINKS",
-			"ragStatus": "G",
-			"vendorNo": "F01953",
-			"currency": "GBP",
-			"workflowStatus": "N",
-			"requestor": "T00S0076",
-			"creationDate": "2019/09/16",
-			"creationTime": "21:35:33",
-			"workflowId": "000017139103",
-			"workflowTitle": "Equipment Mode Update",
-			"reasonCode": "UPD",
-			"role": "BYR",
-			"multistage": "1",
-			"deliveryMethod": "R",
-			"costPrice": [
-				{
-					"fromDate": "2019/09/30",
-					"endDate": "9999/12/31",
-					"newCostPrice": "10.160",
-					"currentCostPrice": "0.000",
-					"upt": "13",
-					"orderUnit": "O03"
-				}
-			],
-			"supplyChain": [
-				{
-					"depots": [
-						{
-							"siteName": "BARNSLEY GIST DEPOT",
-							"storeCode": "6567"
-						},
-						{
-							"siteName": "HEMEL GIST DEPOT",
-							"storeCode": "5966"
-						},
-						{
-							"siteName": "THATCHAM GIST DEPOT",
-							"storeCode": "5908"
-						},
-						{
-							"siteName": "EIRE GIST DEPOT",
-							"storeCode": "5898"
-						},
-						{
-							"siteName": "FAVERSHAM GIST DEPOT",
-							"storeCode": "5652"
-						},
-						{
-							"siteName": "BRISTOL GIST DEPOT",
-							"storeCode": "5380"
-						},
-						{
-							"siteName": "CREWE GIST DEPOT",
-							"storeCode": "5212"
-						},
-						{
-							"siteName": "CUMBERNAULD GIST DEPOT",
-							"storeCode": "5173"
-						}
-					],
-					"currentOrderUnit": "O02",
-					"newOrderUnit": "O03",
-					"currentUPT": "12",
-					"newUPT": "13",
-					"fromDate": "2019/09/30",
-					"endDate": "2019/09/28",
-					"siteGroup": "ZRDARDC"
-				}
-			],
-			"equipment": [
-				{
-					"orderUnit": "O03",
-					"upt": "13",
-					"fromDate": "2019/09/30",
-					"endDate": "9999/12/31",
-					"newEquipmentType": "HALF TRAY",
-					"newEquipmentSetting": "LOW",
-					"currentEquipmentType": "",
-					"currentEquipmentSetting": ""
-				}
-			],
-			"unitWeight": [],
-			"trayWeight": []
-		},
-		{
-			"categories": "F22",
-			"articleNo": "000000000020059837",
-			"articleDescription": "SUM FRTS HI JUICE- E",
-			"unitDescription": "HJ SUM FRUIT-ELIM",
-			"upc": "538527",
-			"multiSupply": "N",
-			"vendorName": "PRINCES SOFT DRINKS",
-			"ragStatus": "G",
-			"vendorNo": "F01953",
-			"currency": "GBP",
-			"workflowStatus": "N",
-			"requestor": "T00S0076",
-			"creationDate": "2019/09/16",
-			"creationTime": "21:41:39",
-			"workflowId": "000017139186",
-			"workflowTitle": "Cost Price Update",
-			"reasonCode": "UPD",
-			"role": "BYR",
-			"multistage": "1",
-			"deliveryMethod": "B",
-			"costPrice": [
-				{
-					"fromDate": "2019/09/30",
-					"endDate": "9999/12/31",
-					"newCostPrice": "8.640",
-					"currentCostPrice": "0.000",
-					"upt": "13",
-					"orderUnit": "O02"
-				}
-			],
-			"supplyChain": [
-				{
-					"depots": [
-						{
-							"siteName": "CUMBERNAULD GIST DEPOT",
-							"storeCode": "5173"
-						},
-						{
-							"siteName": "CREWE GIST DEPOT",
-							"storeCode": "5212"
-						},
-						{
-							"siteName": "BRISTOL GIST DEPOT",
-							"storeCode": "5380"
-						},
-						{
-							"siteName": "FAVERSHAM GIST DEPOT",
-							"storeCode": "5652"
-						},
-						{
-							"siteName": "EIRE GIST DEPOT",
-							"storeCode": "5898"
-						},
-						{
-							"siteName": "THATCHAM GIST DEPOT",
-							"storeCode": "5908"
-						},
-						{
-							"siteName": "HEMEL GIST DEPOT",
-							"storeCode": "5966"
-						},
-						{
-							"siteName": "BARNSLEY GIST DEPOT",
-							"storeCode": "6567"
-						}
-					],
-					"currentOrderUnit": "O01",
-					"newOrderUnit": "O02",
-					"currentUPT": "12",
-					"newUPT": "13",
-					"fromDate": "2019/09/30",
-					"endDate": "2019/09/28",
-					"siteGroup": "ZRDARDC"
-				}
-			],
-			"equipment": [
-				{
-					"orderUnit": "O02",
-					"upt": "13",
-					"fromDate": "2019/09/30",
-					"endDate": "9999/12/31",
-					"newEquipmentType": "HALF TRAY",
-					"newEquipmentSetting": "LOW",
-					"currentEquipmentType": "",
-					"currentEquipmentSetting": ""
-				}
-			],
-			"unitWeight": [],
-			"trayWeight": []
-		}
-	]
+  "ALL": [
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553322",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    }
+  ],
+  "F09": [
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553186",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553223",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553230",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553247",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553254",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553261",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553322",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553452",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553544",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553568",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553605",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553612",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553650",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553667",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553735",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553759",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553834",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553896",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "556453",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "556514",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "545143",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553018",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553148",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553162",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553407",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553438",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553025",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553445",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553469",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    },
+    {
+      "categories": "F09",
+      "articleNo": "000000000020059481",
+      "articleDescription": "FTO DP WHITE MADEIRA",
+      "unitDescription": "FTO DP WHITE MADEIRA",
+      "upc": "553483",
+      "multiSupply": "N",
+      "vendorName": "Avana Bakeries",
+      "ragStatus": "G",
+      "vendorNo": "F01501",
+      "currency": "GBP",
+      "workflowStatus": "N",
+      "requestor": "T00S0002",
+      "creationDate": "2019/09/16",
+      "creationTime": "21:35:33",
+      "workflowId": "000017139103",
+      "workflowTitle": "Equipment Mode Update",
+      "reasonCode": "UPD",
+      "role": "BYR",
+      "multistage": "1",
+      "deliveryMethod": "R",
+      "costPrice": [
+        {
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newCostPrice": "10.160",
+          "currentCostPrice": "0.000",
+          "upt": "13",
+          "orderUnit": "O03"
+        }
+      ],
+      "supplyChain": [
+        {
+          "depots": [
+            {
+              "siteName": "BARNSLEY GIST DEPOT",
+              "storeCode": "6567"
+            },
+            {
+              "siteName": "HEMEL GIST DEPOT",
+              "storeCode": "5966"
+            },
+            {
+              "siteName": "THATCHAM GIST DEPOT",
+              "storeCode": "5908"
+            },
+            {
+              "siteName": "EIRE GIST DEPOT",
+              "storeCode": "5898"
+            },
+            {
+              "siteName": "FAVERSHAM GIST DEPOT",
+              "storeCode": "5652"
+            },
+            {
+              "siteName": "BRISTOL GIST DEPOT",
+              "storeCode": "5380"
+            },
+            {
+              "siteName": "CREWE GIST DEPOT",
+              "storeCode": "5212"
+            },
+            {
+              "siteName": "CUMBERNAULD GIST DEPOT",
+              "storeCode": "5173"
+            }
+          ],
+          "currentOrderUnit": "O02",
+          "newOrderUnit": "O03",
+          "currentUPT": "12",
+          "newUPT": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "siteGroup": "ZRDARDC"
+        }
+      ],
+      "equipment": [
+        {
+          "orderUnit": "O03",
+          "upt": "13",
+          "fromDate": "2019/09/30",
+          "endDate": "9999/12/31",
+          "newEquipmentType": "HALF TRAY",
+          "newEquipmentSetting": "LOW",
+          "currentEquipmentType": "",
+          "currentEquipmentSetting": ""
+        }
+      ],
+      "unitWeight": [
+        
+      ],
+      "trayWeight": [
+        
+      ]
+    }
+  ]
 }
