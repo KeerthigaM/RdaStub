@@ -10,7 +10,7 @@
 			"message": "",
 			"baseUnit": "EA",
 			"productUnitType": "",
-			"fromDate": "2019/05/13",
+			"fromDate": "2019/09/02",
 			"toDate": "9999/12/31",
 			"costPrice": "6.5400",
 			"currency": "GBP",
@@ -19,6 +19,28 @@
 			"packNetContent": "0",
 			"trayNetContent": null,
 			"trayGrossWeight": "0.0000"
+		}
+	],
+	"O03": [
+		{
+			"vendorNo": "F01594",
+			"articleNo": "000000000060035879",
+			"upc": "893558",
+			"validFrom": null,
+			"orderUnit": "O03",
+			"upt": "7",
+			"baseUnit": "EA",
+			"productUnitType": "CW",
+			"fromDate": "2019/09/02",
+			"toDate": "9999/12/31",
+			"costPrice": "0.560",
+			"currency": "GBP",
+			"priceUnit": "0.000",
+			"message": "",
+			"unitNetWeight": "3",
+			"packNetContent": "3",
+			"trayNetWeight": "0.0210",
+			"trayGrossWeight": "0.0210"
 		}
 	]
 }

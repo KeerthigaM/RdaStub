@@ -3,7 +3,7 @@ package com.mns.domain;
 import java.util.Arrays;
 import java.util.List;
 
-public class Workflow {
+public class Workflow implements Cloneable{
 
 	private String categories;
 	private String articleNo;
@@ -295,5 +295,7 @@ public class Workflow {
 				'}';
 	}
 
-	
+	public Object clone()throws CloneNotSupportedException{  
+		return (Workflow)super.clone();  
+	   }
 }

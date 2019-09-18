@@ -1,10 +1,7 @@
 package com.mns.service.impl;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
-import java.io.PrintStream;
 import java.io.Reader;
 import java.util.List;
 import java.util.Random;
@@ -80,7 +77,7 @@ public class RdaStubServiceImpl {
 			reader = new BufferedReader(new InputStreamReader(resource.getInputStream()));
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jsonObj = (JsonObject) jsonParser.parse(reader);
-			JsonArray jsonArr = jsonObj.getAsJsonArray(articleNo);
+			JsonArray jsonArr = jsonObj.getAsJsonArray(orderUnit);
 			if (jsonArr == null) {
 				jsonArr = jsonObj.getAsJsonArray("ALL");
 			}
@@ -202,7 +199,7 @@ public class RdaStubServiceImpl {
 		wcm.setWorkflowMessage("Workflow Created Successfully");
 		return wcm;
 	}
-
+	
 	public List<Workflow> getPendingWorkflows(String categories) {
 		LOGGER.info("getPendingWorkflows");
 		Reader reader = null;
@@ -220,13 +217,27 @@ public class RdaStubServiceImpl {
 			}
 			TypeToken<List<Workflow>> token = new TypeToken<List<Workflow>>(){};
 			workflowList = new Gson().fromJson(jsonArr, token.getType());
-			String category = getSingleData(categories);
-			for(Workflow w: workflowList){
-				w.setCategories(category);
-			}
+			workflowList = getPending(workflowList,categories);			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		return workflowList;
+	}
+	
+	public List<Workflow> getPending(List<Workflow> workflowList, String categories) throws CloneNotSupportedException 
+	{
+		String upc="553186,553223,553230,553247,553254,553261,553322,553452,553544,553568,553605,553612,553650,553667,553735,553759,553834,553896,556453,556514,545143,553018,553148,553162,553407,553438,553025,553445,553469,553483"; 
+		//String requestor="";
+		Workflow w = workflowList.get(0);
+		String[] upcArr = upc.split(",");
+		for(int i=0;i<=upcArr.length-1;i++) {
+			Workflow work = (Workflow) w.clone();
+			work.setUpc(upcArr[i]);
+			work.setCategories(getSingleData(categories));
+			work.setWorkflowId("0000"+String.valueOf(new Random().nextInt(99999999)));
+			workflowList.add(work);
+			System.out.println(work);
+		}		
 		return workflowList;
 	}
 
@@ -366,7 +377,7 @@ public class RdaStubServiceImpl {
 		return ProductWeightsList;
 	}
 	
-	private String getSingleData(String data) {
+	public String getSingleData(String data) {
 		if(data !=null) {
 			if(data.contains(","))
 				return data.split(",")[0];
@@ -375,19 +386,5 @@ public class RdaStubServiceImpl {
 		}else {
 			return "";
 		}
-	}
-	
-	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream o = new PrintStream(new File("D:\\Users\\886758\\Desktop\\Dummy.txt"));
-		String data="553186,553223,553230,553247,553254,553261,553322,553452,553544,553568,553605,553612,553650,553667,553735,553759,553834,553896,556453,556514,545143,553018,553148,553162,553407,553438,553025,553445,553469,553483";
-		getData(data,o);
-	}
-
-	private static void getData(String data,PrintStream o) throws FileNotFoundException {
-		String[] catArr=data.split(",");
-			for(int i=0;i<catArr.length;i++){
-				System.setErr(o);
-				System.out.println("{\"categories\":\"F09\",\"articleNo\":\"000000000020059481\",\"articleDescription\":\"FTO DP WHITE MADEIRA\",\"unitDescription\":\"FTO DP WHITE MADEIRA\",\"upc\":\""+catArr[i]+"\",\"multiSupply\":\"N\",\"vendorName\":\"Avana Bakeries\",\"ragStatus\":\"G\",\"vendorNo\":\"F01501\",\"currency\":\"GBP\",\"workflowStatus\":\"N\",\"requestor\":\"T00S0002\",\"creationDate\":\"2019/09/16\",\"creationTime\":\"21:35:33\",\"workflowId\":\"000017139103\",\"workflowTitle\":\"Equipment Mode Update\",\"reasonCode\":\"UPD\",\"role\":\"BYR\",\"multistage\":\"1\",\"deliveryMethod\":\"R\",\"costPrice\":[{\"fromDate\":\"2019/09/30\",\"endDate\":\"9999/12/31\",\"newCostPrice\":\"10.160\",\"currentCostPrice\":\"0.000\",\"upt\":\"13\",\"orderUnit\":\"O03\"}],\"supplyChain\":[{\"depots\":[{\"siteName\":\"BARNSLEY GIST DEPOT\",\"storeCode\":\"6567\"},{\"siteName\":\"HEMEL GIST DEPOT\",\"storeCode\":\"5966\"},{\"siteName\":\"THATCHAM GIST DEPOT\",\"storeCode\":\"5908\"},{\"siteName\":\"EIRE GIST DEPOT\",\"storeCode\":\"5898\"},{\"siteName\":\"FAVERSHAM GIST DEPOT\",\"storeCode\":\"5652\"},{\"siteName\":\"BRISTOL GIST DEPOT\",\"storeCode\":\"5380\"},{\"siteName\":\"CREWE GIST DEPOT\",\"storeCode\":\"5212\"},{\"siteName\":\"CUMBERNAULD GIST DEPOT\",\"storeCode\":\"5173\"}],\"currentOrderUnit\":\"O02\",\"newOrderUnit\":\"O03\",\"currentUPT\":\"12\",\"newUPT\":\"13\",\"fromDate\":\"2019/09/30\",\"endDate\":\"9999/12/31\",\"siteGroup\":\"ZRDARDC\"}],\"equipment\":[{\"orderUnit\":\"O03\",\"upt\":\"13\",\"fromDate\":\"2019/09/30\",\"endDate\":\"9999/12/31\",\"newEquipmentType\":\"HALF TRAY\",\"newEquipmentSetting\":\"LOW\",\"currentEquipmentType\":\"\",\"currentEquipmentSetting\":\"\"}],\"unitWeight\":[],\"trayWeight\":[]},");
-			}
 	}
 }
