@@ -238,6 +238,7 @@ public class RdaStubServiceImpl {
 			workflowList.add(work);
 			System.out.println(work);
 		}		
+		workflowList.remove(0);
 		return workflowList;
 	}
 
